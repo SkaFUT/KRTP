@@ -30,6 +30,8 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.ConditionAssessment = new System.Windows.Forms.TextBox();
             this.YearOfCreate = new System.Windows.Forms.TextBox();
             this.Region = new System.Windows.Forms.TextBox();
@@ -44,10 +46,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.mame_monument = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.ListOfMonuments = new System.Windows.Forms.ListBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.itog_Condition = new System.Windows.Forms.TextBox();
             this.itog_Year = new System.Windows.Forms.TextBox();
             this.itog_Region = new System.Windows.Forms.TextBox();
@@ -60,6 +58,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.itog_name_monument = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.ListOfMonuments = new System.Windows.Forms.ListBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -100,6 +100,26 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Заполнение анкеты";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(257, 457);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(217, 56);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Удалить";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(6, 457);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(244, 57);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Добавить";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ConditionAssessment
             // 
@@ -242,43 +262,6 @@
             this.tabPage2.Text = "Просмотр памятников";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(6, 457);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(244, 57);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Добавить";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(257, 457);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 56);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Удалить";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // ListOfMonuments
-            // 
-            this.ListOfMonuments.FormattingEnabled = true;
-            this.ListOfMonuments.ItemHeight = 16;
-            this.ListOfMonuments.Location = new System.Drawing.Point(6, 54);
-            this.ListOfMonuments.Name = "ListOfMonuments";
-            this.ListOfMonuments.Size = new System.Drawing.Size(263, 452);
-            this.ListOfMonuments.TabIndex = 0;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(9, 11);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(170, 32);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Памятники";
-            // 
             // itog_Condition
             // 
             this.itog_Condition.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -386,6 +369,25 @@
             this.itog_name_monument.Name = "itog_name_monument";
             this.itog_name_monument.Size = new System.Drawing.Size(468, 34);
             this.itog_name_monument.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(9, 11);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(170, 32);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Памятники";
+            // 
+            // ListOfMonuments
+            // 
+            this.ListOfMonuments.FormattingEnabled = true;
+            this.ListOfMonuments.ItemHeight = 16;
+            this.ListOfMonuments.Location = new System.Drawing.Point(6, 54);
+            this.ListOfMonuments.Name = "ListOfMonuments";
+            this.ListOfMonuments.Size = new System.Drawing.Size(263, 452);
+            this.ListOfMonuments.TabIndex = 0;
             // 
             // Form1
             // 
