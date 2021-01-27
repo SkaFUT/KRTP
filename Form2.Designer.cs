@@ -68,7 +68,6 @@
             this.itog_Region.Name = "itog_Region";
             this.itog_Region.Size = new System.Drawing.Size(468, 34);
             this.itog_Region.TabIndex = 36;
-            this.itog_Region.TextChanged += new System.EventHandler(this.Itog_Region_TextChanged);
             // 
             // itpg_Creater
             // 
@@ -180,10 +179,11 @@
             this.Redactor_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Redactor_button.Location = new System.Drawing.Point(12, 506);
             this.Redactor_button.Name = "Redactor_button";
-            this.Redactor_button.Size = new System.Drawing.Size(171, 56);
+            this.Redactor_button.Size = new System.Drawing.Size(214, 56);
             this.Redactor_button.TabIndex = 39;
             this.Redactor_button.Text = "Редактор";
             this.Redactor_button.UseVisualStyleBackColor = true;
+            this.Redactor_button.Click += new System.EventHandler(this.Redactor_button_Click);
             // 
             // Form2
             // 
@@ -206,7 +206,9 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.ListOfMonuments);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Памятники истории и архитектуры";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

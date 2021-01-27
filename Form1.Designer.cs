@@ -196,6 +196,7 @@
             this.View_button.TabIndex = 30;
             this.View_button.Text = "Галерея";
             this.View_button.UseVisualStyleBackColor = true;
+            this.View_button.Click += new System.EventHandler(this.View_button_Click);
             // 
             // Form1
             // 
@@ -219,7 +220,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.mame_monument);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Памятники истории и архитектуры";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

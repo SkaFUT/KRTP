@@ -17,9 +17,16 @@ namespace KRTP
             InitializeComponent();
         }
 
-        private void Itog_Region_TextChanged(object sender, EventArgs e)
+        private void Redactor_button_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();
+        }
 
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

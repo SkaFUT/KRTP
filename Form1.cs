@@ -17,5 +17,16 @@ namespace KRTP
             InitializeComponent();
         }
 
+        private void View_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
