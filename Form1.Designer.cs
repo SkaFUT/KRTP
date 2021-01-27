@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.delete_data = new System.Windows.Forms.Button();
+            this.add_monument = new System.Windows.Forms.Button();
             this.ConditionAssessment = new System.Windows.Forms.TextBox();
             this.YearOfCreate = new System.Windows.Forms.TextBox();
             this.Region = new System.Windows.Forms.TextBox();
@@ -45,27 +45,27 @@
             this.mame_monument = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button2
+            // delete_data
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(263, 470);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 56);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "Удалить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.delete_data.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.delete_data.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.delete_data.Location = new System.Drawing.Point(263, 470);
+            this.delete_data.Name = "delete_data";
+            this.delete_data.Size = new System.Drawing.Size(217, 56);
+            this.delete_data.TabIndex = 29;
+            this.delete_data.Text = "Удалить";
+            this.delete_data.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // add_monument
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(12, 470);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(244, 57);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Добавить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.add_monument.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.add_monument.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.add_monument.Location = new System.Drawing.Point(12, 470);
+            this.add_monument.Name = "add_monument";
+            this.add_monument.Size = new System.Drawing.Size(244, 57);
+            this.add_monument.TabIndex = 28;
+            this.add_monument.Text = "Добавить";
+            this.add_monument.UseVisualStyleBackColor = true;
             // 
             // ConditionAssessment
             // 
@@ -190,8 +190,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 573);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.delete_data);
+            this.Controls.Add(this.add_monument);
             this.Controls.Add(this.ConditionAssessment);
             this.Controls.Add(this.YearOfCreate);
             this.Controls.Add(this.Region);
@@ -214,8 +214,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button delete_data;
+        private System.Windows.Forms.Button add_monument;
         private System.Windows.Forms.TextBox ConditionAssessment;
         private System.Windows.Forms.TextBox YearOfCreate;
         private System.Windows.Forms.TextBox Region;

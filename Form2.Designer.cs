@@ -47,7 +47,7 @@
             // itog_Condition
             // 
             this.itog_Condition.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.itog_Condition.Location = new System.Drawing.Point(336, 422);
+            this.itog_Condition.Location = new System.Drawing.Point(341, 436);
             this.itog_Condition.Name = "itog_Condition";
             this.itog_Condition.Size = new System.Drawing.Size(468, 34);
             this.itog_Condition.TabIndex = 38;
@@ -55,7 +55,7 @@
             // itog_Year
             // 
             this.itog_Year.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.itog_Year.Location = new System.Drawing.Point(336, 357);
+            this.itog_Year.Location = new System.Drawing.Point(341, 367);
             this.itog_Year.Name = "itog_Year";
             this.itog_Year.Size = new System.Drawing.Size(468, 34);
             this.itog_Year.TabIndex = 37;
@@ -63,10 +63,11 @@
             // itog_Region
             // 
             this.itog_Region.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.itog_Region.Location = new System.Drawing.Point(336, 289);
+            this.itog_Region.Location = new System.Drawing.Point(341, 298);
             this.itog_Region.Name = "itog_Region";
             this.itog_Region.Size = new System.Drawing.Size(468, 34);
             this.itog_Region.TabIndex = 36;
+            this.itog_Region.TextChanged += new System.EventHandler(this.Itog_Region_TextChanged);
             // 
             // itpg_Creater
             // 
@@ -88,7 +89,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(334, 325);
+            this.label9.Location = new System.Drawing.Point(336, 335);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(190, 29);
             this.label9.TabIndex = 33;
@@ -98,7 +99,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(336, 393);
+            this.label10.Location = new System.Drawing.Point(336, 404);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(252, 29);
             this.label10.TabIndex = 32;

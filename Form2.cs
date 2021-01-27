@@ -16,5 +16,10 @@ namespace KRTP
         {
             InitializeComponent();
         }
+
+        private void Itog_Region_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
