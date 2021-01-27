@@ -42,6 +42,7 @@
             this.itog_name_monument = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.ListOfMonuments = new System.Windows.Forms.ListBox();
+            this.Redactor_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // itog_Condition
@@ -157,7 +158,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(15, 13);
+            this.label8.Location = new System.Drawing.Point(6, 9);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(170, 32);
             this.label8.TabIndex = 26;
@@ -173,11 +174,23 @@
             this.ListOfMonuments.Size = new System.Drawing.Size(318, 444);
             this.ListOfMonuments.TabIndex = 25;
             // 
+            // Redactor_button
+            // 
+            this.Redactor_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Redactor_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Redactor_button.Location = new System.Drawing.Point(12, 506);
+            this.Redactor_button.Name = "Redactor_button";
+            this.Redactor_button.Size = new System.Drawing.Size(171, 56);
+            this.Redactor_button.TabIndex = 39;
+            this.Redactor_button.Text = "Редактор";
+            this.Redactor_button.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 573);
+            this.Controls.Add(this.Redactor_button);
             this.Controls.Add(this.itog_Condition);
             this.Controls.Add(this.itog_Year);
             this.Controls.Add(this.itog_Region);
@@ -215,5 +228,6 @@
         private System.Windows.Forms.TextBox itog_name_monument;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ListBox ListOfMonuments;
+        private System.Windows.Forms.Button Redactor_button;
     }
 }

@@ -43,13 +43,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.mame_monument = new System.Windows.Forms.TextBox();
+            this.View_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // delete_data
             // 
             this.delete_data.Cursor = System.Windows.Forms.Cursors.Hand;
             this.delete_data.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.delete_data.Location = new System.Drawing.Point(263, 470);
+            this.delete_data.Location = new System.Drawing.Point(262, 495);
             this.delete_data.Name = "delete_data";
             this.delete_data.Size = new System.Drawing.Size(217, 56);
             this.delete_data.TabIndex = 29;
@@ -60,7 +61,7 @@
             // 
             this.add_monument.Cursor = System.Windows.Forms.Cursors.Hand;
             this.add_monument.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.add_monument.Location = new System.Drawing.Point(12, 470);
+            this.add_monument.Location = new System.Drawing.Point(12, 495);
             this.add_monument.Name = "add_monument";
             this.add_monument.Size = new System.Drawing.Size(244, 57);
             this.add_monument.TabIndex = 28;
@@ -185,11 +186,23 @@
             this.mame_monument.Size = new System.Drawing.Size(468, 34);
             this.mame_monument.TabIndex = 15;
             // 
+            // View_button
+            // 
+            this.View_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.View_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.View_button.Location = new System.Drawing.Point(889, 495);
+            this.View_button.Name = "View_button";
+            this.View_button.Size = new System.Drawing.Size(171, 56);
+            this.View_button.TabIndex = 30;
+            this.View_button.Text = "Галерея";
+            this.View_button.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 573);
+            this.Controls.Add(this.View_button);
             this.Controls.Add(this.delete_data);
             this.Controls.Add(this.add_monument);
             this.Controls.Add(this.ConditionAssessment);
@@ -229,6 +242,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox mame_monument;
+        private System.Windows.Forms.Button View_button;
     }
 }
 
